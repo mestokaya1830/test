@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon ./src/index.js",
-    "build" : "docker build -t test .",
-    "start" : "docker run -p 3000:3000 test"
+    "build": "docker build -t test .",
+    "start": "docker run -p 3000:3000 test"
   },
   "keywords": [],
   "author": "",
