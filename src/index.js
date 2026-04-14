@@ -19,7 +19,8 @@ app.use(httpLogger)
 app.get('/', catchAsync(async(req, res, next) => {
   res.json({
     success: true,
-    message: 'Home Page'
+    message: 'Home Page',
+    data: 'Mesto Kaya'
   })
 }))
 
